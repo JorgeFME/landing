@@ -1,7 +1,7 @@
 name: Update manifest.json on dev→main merge
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
